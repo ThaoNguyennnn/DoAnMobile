@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".log_reg.Register"
+
+    >
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký Tài Khoản"
+        android:textStyle="bold"
+        android:textSize="12pt"/>
+
+    <EditText
+        android:id="@+id/username_reg"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Username"
+        android:background="@drawable/input_register"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/pass_reg"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Password"
+        android:background="@drawable/input_register"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/phone_reg"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Số điện thoại"
+        android:background="@drawable/input_register"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Email"
+        android:background="@drawable/input_register"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/address_reg"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Địa chỉ"
+        android:background="@drawable/input_register"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnreg_reg"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_login"
+        android:text="Đăng Ký"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bạn đã có tài khoản ?" />
+
+        <Button
+            android:id="@+id/btnlogin_reg"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:text="Đăng Nhập"
+            android:textColor="#EC2424" />
+    </LinearLayout>
+
+</LinearLayout>

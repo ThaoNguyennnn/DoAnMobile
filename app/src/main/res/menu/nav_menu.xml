@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/combo"
+        android:title="Combo"
+        />
+    <item
+        android:id="@+id/mainfood"
+        android:title="Món Chính"
+        />
+    <item
+        android:id="@+id/drinks"
+        android:title="Thức Uống"
+        />
+    <item
+        android:id="@+id/sidefood"
+        android:title="Tráng Miệng"
+        />
+
+
+</menu>

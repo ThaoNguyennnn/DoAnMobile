@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/hamburger_icon"
+        android:title="Menu"
+        />
+    <item
+        android:id="@+id/sale"
+        android:icon="@drawable/sale_icon"
+        android:title="Khuyến Mãi"
+        />
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/cart_icon"
+        android:title="Giỏ Hàng"
+        />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/more_icon"
+        android:title="Thêm"
+        />
+</menu>
